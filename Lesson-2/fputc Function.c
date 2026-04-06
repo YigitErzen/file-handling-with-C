@@ -21,6 +21,7 @@ int main(){
             printf("%c", ch);
             index++;
         }
+        fclose(fp);
     }
     return 0;
 }
